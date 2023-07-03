@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="text"],input[type="password"],input[type="number"],input[type="email"],input[type="tel"],textarea{
+    @apply w-full border-2 my-3 py-3 px-5 rounded-full text-xl;
+}
+
+.primary{
+    background-color: #F5385D;
+    color: #fff;
+    transition: 100ms;
+}
+
+.text-primary{
+    color: #F5385D;
+}
