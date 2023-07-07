@@ -54,7 +54,7 @@ export default function AddSoal() {
     <div className='container'>
       <form className='mt-8 p-4 mx-auto w-5/12 min-w-fit' onSubmit={handleSubmit}>
         <Link to={'/admin'}>
-          <button className='primary px-3 py-1 rounded-full mb-5'>Kembali</button>
+          <button className='bg-slate-700 text-white px-3 py-1 rounded-full mb-5'>Kembali</button>
         </Link>
         <div>
           <h1 className='font-semibold text-xl'>Pertanyaan</h1>
@@ -63,7 +63,7 @@ export default function AddSoal() {
 
         <div className='mt-4'>
           <h1 className='font-semibold text-xl inline-block'>Pilihan Jawaban</h1>
-          <button type="button" onClick={handleAddOption} className='ml-2 primary px-4 py-0 mt-2 rounded-full font-semibold'>+</button>
+          <button type="button" onClick={handleAddOption} className='ml-2 bg-slate-700 text-white px-4 py-0 mt-2 rounded-full font-semibold'>+</button>
           {options.map((option, index) => (
             <div key={index}>
               <input type="text" value={option} onChange={(e) => handleOptionChange(index, e.target.value)} required />
@@ -91,7 +91,7 @@ export default function AddSoal() {
           ))}
         </div>
 
-        <button className='primary px-3 py-1 rounded-full' type='submit'>Submit</button>
+        <button className='bg-slate-700 text-white px-3 py-1 rounded-full' type='submit'>Submit</button>
       </form>
     </div>
   )

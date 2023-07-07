@@ -12,6 +12,16 @@ input[type="text"],input[type="password"],input[type="number"],input[type="email
     transition: 100ms;
 }
 
+.bg-primary{
+    background-color: #F5385D;
+    color: #fff;
+    transition: 100ms;
+}
+
+.border-primary{
+    border-color: #F5385D;
+}
+
 .text-primary{
     color: #F5385D;
 }

@@ -26,7 +26,7 @@ export default function DashboardSoal() {
             <Nav/>
             <h1 className='text-2xl font-semibold mt-4 mb-4'>List Soal</h1>
             <Link to={'/admin/add-soal'}>
-                <button className='primary px-3 py-1 rounded-full'>Tambah Soal</button>
+                <button className='bg-slate-700 text-white px-3 py-1 rounded-full'>Tambah Soal</button>
             </Link>
             {questions.map((question, index) => {
                 return (

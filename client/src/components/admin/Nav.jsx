@@ -10,7 +10,7 @@ export default function Nav() {
     function linkClasses(type = null){
         let classes = ' w-6/12 py-2 inline-block '
         if(subpage === type){
-            classes += 'primary'
+            classes += 'bg-slate-700 text-white'
         }
 
         return classes

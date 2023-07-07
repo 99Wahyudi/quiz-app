@@ -19,7 +19,7 @@ export default function UsernamePage() {
             <h1 className='font-bold text-2xl mb-3'>Masukkan Nama</h1>
             <form onSubmit={handleSubmit}>
                 <input type='text'required value={user} onChange={(e)=>setUser(e.target.value)}/>
-                <button className='primary px-2 py-2 rounded-full' type='submit'>Kerjakan Soal</button>
+                <button className='bg-slate-700 text-white px-3 py-1 rounded-full font-medium' type='submit'>Kerjakan Soal</button>
             </form>
         </div>
     )
